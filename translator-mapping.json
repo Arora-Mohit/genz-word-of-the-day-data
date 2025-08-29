@@ -1,0 +1,10 @@
+{
+"en_to_gz": {
+"phrases": [["that was very impressive", "you ate"], ["let him do his thing", "let him cook"]],
+"words": [["impressive", "fire"], ["charisma", "rizz"]]
+},
+"gz_to_en": {
+"phrases": [["you ate", "you did a great job"]],
+"words": [["rizz", "charisma"], ["delulu", "playfully delusional"]]
+}
+}
