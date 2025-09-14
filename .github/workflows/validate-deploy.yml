@@ -10,35 +10,39 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      # Sanity: show files and confirm dictionary path (change the path if yours is different)
-      - name: Sanity checks
-        run: |
-          pwd
-          ls -la
-          test -f genz-dictionary.json || (echo "❌ genz-dictionary.json not found in repo root. If yours is at public/genz-dictionary.json, update path in package.json & workflow." && exit 2)
-
       - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      # No deps needed; run validator directly to get clear logs
+        with: { node-version: '20' }
+      - name: Sanity (show tree and confirm JSON path)
+        run: |
+          ls -la
+          test -f genz-dictionary.json || (echo "❌ genz-dictionary.json not found at repo root" && exit 2)
       - name: Validate dictionary
         run: node scripts/validate-dictionary.mjs genz-dictionary.json
 
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+  build:
     needs: validate
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - uses: actions/deploy-pages@v4
+        with: { path: "." }  # change to 'public' if you only want that folder deployed
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
