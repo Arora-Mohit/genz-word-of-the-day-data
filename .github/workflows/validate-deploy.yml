@@ -15,13 +15,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Sanity: show files and confirm dictionary path (change the path if yours is different)
+      - name: Sanity checks
+        run: |
+          pwd
+          ls -la
+          test -f genz-dictionary.json || (echo "❌ genz-dictionary.json not found in repo root. If yours is at public/genz-dictionary.json, update path in package.json & workflow." && exit 2)
+
       - uses: actions/setup-node@v4
-        with: { node-version: '20' }
-      - run: node -v
-      - run: npm run validate:dict
-        env:
-          # ensure scripts directory exists even on fresh repos
-          FORCE_COLOR: '1'
+        with:
+          node-version: '20'
+
+      # No deps needed; run validator directly to get clear logs
+      - name: Validate dictionary
+        run: node scripts/validate-dictionary.mjs genz-dictionary.json
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
