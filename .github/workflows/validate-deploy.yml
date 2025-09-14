@@ -4,6 +4,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    - cron: '0 9 * * MON'   # every Monday 09:00 UTC
 
 permissions:
   contents: read
