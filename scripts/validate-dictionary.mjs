@@ -28,6 +28,7 @@ if (!Array.isArray(data)) {
 
 const norm = (s) =>
   String(s)
+    .replace(/[\u00A0\u200B\u200C\u200D\uFEFF]/g, ' ')  // strip odd unicode spaces
     .toLowerCase()
     .trim()
     .replace(/\s+/g, ' ')
