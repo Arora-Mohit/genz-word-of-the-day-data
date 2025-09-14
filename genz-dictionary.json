@@ -1,63 +1,1687 @@
 [
-{ "term": "delulu", "meaning": "playfully delusional; audacious confidence", "example": "Thinking we’ll ship by Friday is delulu.", "source": "merriam-webster" },
-{ "term": "flex", "meaning": "to show off", "example": "Dark mode everywhere is a flex.", "source": "common" },
-{ "term": "grind", "meaning": "hard work; hustle", "example": "Back to the grind.", "source": "common" },
-{ "term": "vibes", "meaning": "overall feel/mood", "example": "The offsite vibes were immaculate.", "source": "common" },
-{ "term": "snatched", "meaning": "on point; perfect", "example": "That UI is snatched.", "source": "common" },
-{ "term": "brain rot", "meaning": "mind-numbing content overload", "example": "Reels gave me brain rot.", "source": "oxford-2024" },
-{ "term": "NPC", "meaning": "unoriginal person/behavior", "example": "Stop NPC posting and add value.", "source": "common" },
-{ "term": "clean", "meaning": "aesthetic; polished", "example": "The dashboard looks clean.", "source": "common" },
-{ "term": "yap", "meaning": "talk too much", "example": "Okay I’ll stop the yap and ship.", "source": "common" },
-{ "term": "mog", "meaning": "outclass; dominate", "example": "Our LTV:CAC mogs theirs.", "source": "common" },
-{ "term": "slay", "meaning": "do exceptionally well", "example": "You slayed that keynote.", "source": "oxford" },
-{ "term": "drip", "meaning": "stylish clothes", "example": "That jacket is drip.", "source": "common" },
-{ "term": "fit", "meaning": "outfit", "example": "Your fit is on point.", "source": "common" },
-{ "term": "glow up", "meaning": "significant positive change", "example": "That redesign was a glow up.", "source": "common" },
-{ "term": "FOMO", "meaning": "fear of missing out", "example": "Skipping the conf gave me FOMO.", "source": "common" },
-{ "term": "JOMO", "meaning": "joy of missing out", "example": "Weekend JOMO—phone off.", "source": "common" },
-{ "term": "POV", "meaning": "point of view; framing meme", "example": "POV: you fixed the flaky test.", "source": "common" },
-{ "term": "TBH", "meaning": "to be honest", "example": "TBH, dark mode wins.", "source": "common" },
-{ "term": "NGL", "meaning": "not gonna lie", "example": "NGL that talk was long.", "source": "common" },
-{ "term": "IYKYK", "meaning": "if you know you know", "example": "Regex pain, IYKYK.", "source": "common" },
-{ "term": "OOMF", "meaning": "one of my followers", "example": "OOMF asked about the API.", "source": "common" },
-{ "term": "big yikes", "meaning": "very cringe; bad", "example": "Shipping secrets to prod? Big yikes.", "source": "common" },
-{ "term": "the ick", "meaning": "sudden aversion", "example": "Loud chewing is the ick.", "source": "common" },
-{ "term": "green flag", "meaning": "good sign", "example": "Clear docs are a green flag.", "source": "common" },
-{ "term": "red flag", "meaning": "warning sign", "example": "No tests is a red flag.", "source": "common" },
-{ "term": "pressed", "meaning": "upset; bothered", "example": "No need to be pressed about it.", "source": "common" },
-{ "term": "shook", "meaning": "shocked", "example": "I’m shook by the results.", "source": "common" },
-{ "term": "dead", "meaning": "finding something very funny", "example": "That meme had me dead.", "source": "common" },
-{ "term": "sending me", "meaning": "making me laugh a lot", "example": "Those comments are sending me.", "source": "common" },
-{ "term": "girl dinner", "meaning": "casual snack-plate meal", "example": "Fruit, cheese, crackers—girl dinner.", "source": "dictionary.com" },
-{ "term": "beige flag", "meaning": "quirky but harmless trait", "example": "He alphabetizes snacks—beige flag.", "source": "dictionary.com" },
-{ "term": "situationship", "meaning": "undefined romantic relationship", "example": "They're in a situationship.", "source": "common" },
-{ "term": "sneaky link", "meaning": "secret meetup/date", "example": "They had a sneaky link last night.", "source": "common" },
-{ "term": "let him cook", "meaning": "let him continue; trust the process", "example": "He’s debugging—let him cook.", "source": "dictionary.com" },
-{ "term": "let them cook", "meaning": "let them continue; trust the process", "example": "Design’s iterating—let them cook.", "source": "dictionary.com" },
-{ "term": "skibidi", "meaning": "nonsense meme catchword", "example": "Skibidi sounds everywhere on TikTok.", "source": "dictionary.com/cambridge" },
-{ "term": "gyatt", "meaning": "expressing surprise/admiration", "example": "Gyatt, that’s a huge queue.", "source": "internet slang" },
-{ "term": "brat", "meaning": "confident, hedonistic aesthetic (2024)", "example": "Neon green theme—very brat.", "source": "collins-2024" },
-{ "term": "era", "meaning": "current theme/phase", "example": "We’re in our shipping era.", "source": "common" },
-{ "term": "bop", "meaning": "good song", "example": "That track is a bop.", "source": "common" },
-{ "term": "valid", "meaning": "legit; acceptable", "example": "That’s a valid concern.", "source": "common" },
-{ "term": "hard launch", "meaning": "public reveal (relationship/product)", "example": "They hard launched on IG.", "source": "common" },
-{ "term": "soft launch", "meaning": "subtle reveal; limited roll-out", "example": "We soft launched v2.", "source": "common" },
-{ "term": "aura", "meaning": "overall personal vibe", "example": "He has a calm aura.", "source": "common" },
-{ "term": "serve", "meaning": "deliver strongly; look great", "example": "That fit serves.", "source": "common" },
-{ "term": "ate and left no crumbs", "meaning": "performed flawlessly", "example": "She ate and left no crumbs on stage.", "source": "common" },
-{ "term": "glitch in the matrix", "meaning": "odd coincidence", "example": "Same bug twice—glitch in the matrix.", "source": "common" },
-{ "term": "heat", "meaning": "great content/music", "example": "This playlist is heat.", "source": "common" },
-{ "term": "slept on", "meaning": "underrated", "example": "That library is slept on.", "source": "common" },
-{ "term": "gatekeep/girlboss/gaslight", "meaning": "meme trio riffing on behaviors", "example": "We jokingly said: gaslight, gatekeep, girlboss.", "source": "internet meme" },
-{ "term": "ratio", "meaning": "get more replies than likes", "example": "Ouch, ratio.", "source": "common" },
-{ "term": "touch grass moment", "meaning": "time to take a break", "example": "After 6 hours on docs—touch grass moment.", "source": "common" },
-{ "term": "ick", "meaning": "turn-off", "example": "Talking in movie—ick.", "source": "common" },
-{ "term": "malewife", "meaning": "man embracing domestic vibe (humorous)", "example": "He’s in malewife era cooking pasta.", "source": "internet" },
-{ "term": "tradwife", "meaning": "traditional homemaker aesthetic", "example": "Cottagecore tradwife videos.", "source": "cambridge-2025" },
-{ "term": "lewks/lewk", "meaning": "distinctive look/style", "example": "That stage lewk was iconic.", "source": "cambridge-2025" },
-{ "term": "thirst trap", "meaning": "post meant to attract attention", "example": "That gym selfie was a thirst trap.", "source": "common" },
-{ "term": "thirsty", "meaning": "desperate for attention", "example": "Don’t be thirsty in comments.", "source": "common" },
-{ "term": "down bad", "meaning": "crushing hard; struggling", "example": "He’s down bad for her.", "source": "common" },
-{ "term": "smash", "meaning": "strongly like; approve (meme)", "example": "Dark mode—smash.", "source": "internet meme" },
-{ "term": "glazing", "meaning": "overpraising excessively", "example": "Chat’s glazing the speaker.", "source": "internet" }
+  {
+    "term": "rizz",
+    "meaning": "charisma; effortless charm",
+    "example": "He has rizz at every event."
+  },
+  {
+    "term": "sus",
+    "meaning": "suspicious; sketchy",
+    "example": "That link looks sus."
+  },
+  {
+    "term": "no cap",
+    "meaning": "for real; not exaggerating",
+    "example": "That talk was great, no cap."
+  },
+  {
+    "term": "cap",
+    "meaning": "a lie; to lie",
+    "example": "He said he coded it all—cap."
+  },
+  {
+    "term": "bet",
+    "meaning": "okay; confirmed; challenge accepted",
+    "example": "You’ll handle docs? Bet."
+  },
+  {
+    "term": "delulu",
+    "meaning": "playfully delusional confidence",
+    "example": "Thinking we'll ship tonight is delulu."
+  },
+  {
+    "term": "mid",
+    "meaning": "average; underwhelming",
+    "example": "The sequel was mid."
+  },
+  {
+    "term": "ate",
+    "meaning": "nailed it; did great",
+    "example": "You ate that keynote."
+  },
+  {
+    "term": "it's giving",
+    "meaning": "it gives off the vibe of",
+    "example": "It’s giving minimalist chic."
+  },
+  {
+    "term": "based",
+    "meaning": "confidently true; independent-minded",
+    "example": "Saying no to scope creep is based."
+  },
+  {
+    "term": "cringe",
+    "meaning": "embarrassing; awkward",
+    "example": "That auto-DM is cringe."
+  },
+  {
+    "term": "yeet",
+    "meaning": "throw with force; exclamation",
+    "example": "She yeeted the ball."
+  },
+  {
+    "term": "slaps",
+    "meaning": "is excellent (esp. music/food)",
+    "example": "This playlist slaps."
+  },
+  {
+    "term": "bussin'",
+    "meaning": "very good (esp. food)",
+    "example": "These tacos are bussin'."
+  },
+  {
+    "term": "vibe check",
+    "meaning": "quick read of the mood",
+    "example": "Vibe check—how we feeling?"
+  },
+  {
+    "term": "simp",
+    "meaning": "overly attentive to a crush",
+    "example": "He drove an hour for her—simp move."
+  },
+  {
+    "term": "low-key",
+    "meaning": "a little; subtly",
+    "example": "I'm low-key excited."
+  },
+  {
+    "term": "high-key",
+    "meaning": "very; openly",
+    "example": "I'm high-key proud of this."
+  },
+  {
+    "term": "stan",
+    "meaning": "hardcore fan; to be one",
+    "example": "I stan this creator."
+  },
+  {
+    "term": "salty",
+    "meaning": "bitter; annoyed",
+    "example": "He's salty about the loss."
+  },
+  {
+    "term": "GOAT",
+    "meaning": "greatest of all time",
+    "example": "Serena is the GOAT."
+  },
+  {
+    "term": "sheesh",
+    "meaning": "exclamation of awe",
+    "example": "Sheesh, that price."
+  },
+  {
+    "term": "touch grass",
+    "meaning": "go outside; take a break",
+    "example": "After doomscrolling, touch grass."
+  },
+  {
+    "term": "gatekeep",
+    "meaning": "withhold info/access",
+    "example": "Don't gatekeep your process."
+  },
+  {
+    "term": "ratioed",
+    "meaning": "got more replies than likes (bad)",
+    "example": "That take got ratioed."
+  },
+  {
+    "term": "ghost",
+    "meaning": "suddenly ignore",
+    "example": "They ghosted after the interview."
+  },
+  {
+    "term": "main character energy",
+    "meaning": "owning the moment",
+    "example": "She walked in with main character energy."
+  },
+  {
+    "term": "cheugy",
+    "meaning": "out of style; try-hard",
+    "example": "That slogan tee is cheugy."
+  },
+  {
+    "term": "fire",
+    "meaning": "excellent; hot",
+    "example": "That demo was fire."
+  },
+  {
+    "term": "spill the tea",
+    "meaning": "share the gossip/info",
+    "example": "Spill the tea on the roadmap."
+  },
+  {
+    "term": "ship",
+    "meaning": "support/hope for a relationship",
+    "example": "I ship those two."
+  },
+  {
+    "term": "IRL",
+    "meaning": "in real life",
+    "example": "Let's meet IRL."
+  },
+  {
+    "term": "savage",
+    "meaning": "boldly honest; ruthless",
+    "example": "That code review was savage."
+  },
+  {
+    "term": "flex",
+    "meaning": "to show off",
+    "example": "Feature flags everywhere—flex."
+  },
+  {
+    "term": "grind",
+    "meaning": "hard work; hustle",
+    "example": "Back to the grind."
+  },
+  {
+    "term": "vibes",
+    "meaning": "overall feel/mood",
+    "example": "The vibes are immaculate."
+  },
+  {
+    "term": "snatched",
+    "meaning": "on point; perfect",
+    "example": "The UI is snatched."
+  },
+  {
+    "term": "brain rot",
+    "meaning": "mind-numbing content overload",
+    "example": "Reels gave me brain rot."
+  },
+  {
+    "term": "NPC",
+    "meaning": "unoriginal person/behavior",
+    "example": "Stop NPC posting."
+  },
+  {
+    "term": "clean",
+    "meaning": "aesthetic; polished",
+    "example": "The dashboard looks clean."
+  },
+  {
+    "term": "yap",
+    "meaning": "talk excessively",
+    "example": "Ok I’ll stop the yap."
+  },
+  {
+    "term": "mog",
+    "meaning": "outclass; dominate",
+    "example": "Our LTV:CAC mogs theirs."
+  },
+  {
+    "term": "slay",
+    "meaning": "do exceptionally well",
+    "example": "You slayed that demo."
+  },
+  {
+    "term": "drip",
+    "meaning": "stylish clothing",
+    "example": "That jacket is drip."
+  },
+  {
+    "term": "fit",
+    "meaning": "outfit",
+    "example": "Your fit is on point."
+  },
+  {
+    "term": "glow up",
+    "meaning": "significant positive change",
+    "example": "That redesign was a glow up."
+  },
+  {
+    "term": "FOMO",
+    "meaning": "fear of missing out",
+    "example": "Skipping gave me FOMO."
+  },
+  {
+    "term": "JOMO",
+    "meaning": "joy of missing out",
+    "example": "Weekend JOMO."
+  },
+  {
+    "term": "POV",
+    "meaning": "point of view; trend label",
+    "example": "POV: you fixed the flaky test."
+  },
+  {
+    "term": "TBH",
+    "meaning": "to be honest",
+    "example": "TBH, dark mode wins."
+  },
+  {
+    "term": "NGL",
+    "meaning": "not gonna lie",
+    "example": "NGL that was long."
+  },
+  {
+    "term": "IYKYK",
+    "meaning": "if you know you know",
+    "example": "Regex pain—IYKYK."
+  },
+  {
+    "term": "OOMF",
+    "meaning": "one of my followers",
+    "example": "OOMF asked about the API."
+  },
+  {
+    "term": "big yikes",
+    "meaning": "very cringe; bad",
+    "example": "Shipping secrets to prod? Big yikes."
+  },
+  {
+    "term": "the ick",
+    "meaning": "sudden aversion",
+    "example": "Loud chewing is the ick."
+  },
+  {
+    "term": "green flag",
+    "meaning": "good sign",
+    "example": "Clear docs are a green flag."
+  },
+  {
+    "term": "red flag",
+    "meaning": "warning sign",
+    "example": "No tests is a red flag."
+  },
+  {
+    "term": "pressed",
+    "meaning": "upset; bothered",
+    "example": "No need to be pressed."
+  },
+  {
+    "term": "shook",
+    "meaning": "shocked",
+    "example": "I'm shook."
+  },
+  {
+    "term": "dead",
+    "meaning": "found extremely funny",
+    "example": "That meme had me dead."
+  },
+  {
+    "term": "sending me",
+    "meaning": "making me laugh a lot",
+    "example": "Those comments are sending me."
+  },
+  {
+    "term": "girl dinner",
+    "meaning": "casual snack-plate meal",
+    "example": "Fruit + crackers = girl dinner."
+  },
+  {
+    "term": "beige flag",
+    "meaning": "quirky but harmless trait",
+    "example": "Alphabetizing snacks—beige flag."
+  },
+  {
+    "term": "situationship",
+    "meaning": "undefined romantic relationship",
+    "example": "They're in a situationship."
+  },
+  {
+    "term": "sneaky link",
+    "meaning": "secret meetup/date",
+    "example": "They had a sneaky link."
+  },
+  {
+    "term": "let him cook",
+    "meaning": "let him continue; trust the process",
+    "example": "He's debugging—let him cook."
+  },
+  {
+    "term": "let them cook",
+    "meaning": "let them continue; trust the process",
+    "example": "Design's iterating—let them cook."
+  },
+  {
+    "term": "skibidi",
+    "meaning": "nonsense meme catchword",
+    "example": "Skibidi sounds are everywhere."
+  },
+  {
+    "term": "gyatt",
+    "meaning": "exclamation of surprise/admiration",
+    "example": "Gyatt, that queue is huge."
+  },
+  {
+    "term": "brat",
+    "meaning": "confident, hedonistic aesthetic",
+    "example": "Neon green theme—very brat."
+  },
+  {
+    "term": "era",
+    "meaning": "current theme/phase",
+    "example": "We're in our shipping era."
+  },
+  {
+    "term": "bop",
+    "meaning": "good song",
+    "example": "That track is a bop."
+  },
+  {
+    "term": "valid",
+    "meaning": "legit; acceptable",
+    "example": "That's a valid concern."
+  },
+  {
+    "term": "hard launch",
+    "meaning": "public reveal (relationship/product)",
+    "example": "They hard launched on IG."
+  },
+  {
+    "term": "soft launch",
+    "meaning": "subtle reveal; limited rollout",
+    "example": "We soft launched v2."
+  },
+  {
+    "term": "aura",
+    "meaning": "overall personal vibe",
+    "example": "He has a calm aura."
+  },
+  {
+    "term": "serve",
+    "meaning": "deliver strongly; look great",
+    "example": "That fit serves."
+  },
+  {
+    "term": "ate and left no crumbs",
+    "meaning": "performed flawlessly",
+    "example": "She ate and left no crumbs."
+  },
+  {
+    "term": "heat",
+    "meaning": "great content/music",
+    "example": "This playlist is heat."
+  },
+  {
+    "term": "slept on",
+    "meaning": "underrated",
+    "example": "That library is slept on."
+  },
+  {
+    "term": "ratio",
+    "meaning": "more replies than likes",
+    "example": "Ouch, ratio."
+  },
+  {
+    "term": "touch grass moment",
+    "meaning": "time to take a break",
+    "example": "After 6 hours—touch grass moment."
+  },
+  {
+    "term": "ick",
+    "meaning": "turn-off",
+    "example": "Talking in movies—ick."
+  },
+  {
+    "term": "malewife",
+    "meaning": "man embracing domestic vibe (humorous)",
+    "example": "He's in malewife era cooking."
+  },
+  {
+    "term": "tradwife",
+    "meaning": "traditional homemaker aesthetic",
+    "example": "Cottagecore tradwife videos."
+  },
+  {
+    "term": "lewks",
+    "meaning": "distinctive looks/style",
+    "example": "That stage lewk was iconic."
+  },
+  {
+    "term": "thirst trap",
+    "meaning": "post to attract attention",
+    "example": "That gym selfie was a thirst trap."
+  },
+  {
+    "term": "thirsty",
+    "meaning": "desperate for attention",
+    "example": "Don't be thirsty in comments."
+  },
+  {
+    "term": "down bad",
+    "meaning": "crushing hard; struggling",
+    "example": "He's down bad for her."
+  },
+  {
+    "term": "smash",
+    "meaning": "strongly like/approve (meme)",
+    "example": "Dark mode—smash."
+  },
+  {
+    "term": "glazing",
+    "meaning": "overpraising excessively",
+    "example": "Chat's glazing the speaker."
+  },
+  {
+    "term": "LOL",
+    "meaning": "laughing out loud",
+    "example": "Message me lol when you arrive."
+  },
+  {
+    "term": "LMAO",
+    "meaning": "laughing hard",
+    "example": "Message me lmao when you arrive."
+  },
+  {
+    "term": "ROFL",
+    "meaning": "rolling on the floor laughing",
+    "example": "Message me rofl when you arrive."
+  },
+  {
+    "term": "SMH",
+    "meaning": "shaking my head",
+    "example": "Message me smh when you arrive."
+  },
+  {
+    "term": "IMO",
+    "meaning": "in my opinion",
+    "example": "Message me imo when you arrive."
+  },
+  {
+    "term": "IMHO",
+    "meaning": "in my humble opinion",
+    "example": "Message me imho when you arrive."
+  },
+  {
+    "term": "FYI",
+    "meaning": "for your information",
+    "example": "Message me fyi when you arrive."
+  },
+  {
+    "term": "BTW",
+    "meaning": "by the way",
+    "example": "Message me btw when you arrive."
+  },
+  {
+    "term": "IDC",
+    "meaning": "I don't care",
+    "example": "Message me idc when you arrive."
+  },
+  {
+    "term": "IDK",
+    "meaning": "I don't know",
+    "example": "Message me idk when you arrive."
+  },
+  {
+    "term": "IDGAF",
+    "meaning": "I don't give a flip",
+    "example": "Message me idgaf when you arrive."
+  },
+  {
+    "term": "BRB",
+    "meaning": "be right back",
+    "example": "Message me brb when you arrive."
+  },
+  {
+    "term": "TTYL",
+    "meaning": "talk to you later",
+    "example": "Message me ttyl when you arrive."
+  },
+  {
+    "term": "RN",
+    "meaning": "right now",
+    "example": "Message me rn when you arrive."
+  },
+  {
+    "term": "FR",
+    "meaning": "for real",
+    "example": "Message me fr when you arrive."
+  },
+  {
+    "term": "FRFR",
+    "meaning": "for real for real",
+    "example": "Message me frfr when you arrive."
+  },
+  {
+    "term": "ONG",
+    "meaning": "on God (seriously)",
+    "example": "Message me ong when you arrive."
+  },
+  {
+    "term": "OMW",
+    "meaning": "on my way",
+    "example": "Message me omw when you arrive."
+  },
+  {
+    "term": "FTW",
+    "meaning": "for the win",
+    "example": "Message me ftw when you arrive."
+  },
+  {
+    "term": "FML",
+    "meaning": "frustrated with my life",
+    "example": "Message me fml when you arrive."
+  },
+  {
+    "term": "AFAIK",
+    "meaning": "as far as I know",
+    "example": "Message me afaik when you arrive."
+  },
+  {
+    "term": "ICYMI",
+    "meaning": "in case you missed it",
+    "example": "Message me icymi when you arrive."
+  },
+  {
+    "term": "TL;DR",
+    "meaning": "too long; didn’t read",
+    "example": "Message me tl;dr when you arrive."
+  },
+  {
+    "term": "AKA",
+    "meaning": "also known as",
+    "example": "Message me aka when you arrive."
+  },
+  {
+    "term": "OTP",
+    "meaning": "one true pairing",
+    "example": "Message me otp when you arrive."
+  },
+  {
+    "term": "OOTD",
+    "meaning": "outfit of the day",
+    "example": "Message me ootd when you arrive."
+  },
+  {
+    "term": "FYP",
+    "meaning": "For You page (TikTok)",
+    "example": "Message me fyp when you arrive."
+  },
+  {
+    "term": "DM",
+    "meaning": "direct message",
+    "example": "Message me dm when you arrive."
+  },
+  {
+    "term": "PM",
+    "meaning": "private message",
+    "example": "Message me pm when you arrive."
+  },
+  {
+    "term": "SFW",
+    "meaning": "safe for work",
+    "example": "Message me sfw when you arrive."
+  },
+  {
+    "term": "NSFW",
+    "meaning": "not safe for work",
+    "example": "Message me nsfw when you arrive."
+  },
+  {
+    "term": "W",
+    "meaning": "a win; winning",
+    "example": "Message me w when you arrive."
+  },
+  {
+    "term": "L",
+    "meaning": "a loss; losing",
+    "example": "Message me l when you arrive."
+  },
+  {
+    "term": "OG",
+    "meaning": "original; authentic",
+    "example": "Message me og when you arrive."
+  },
+  {
+    "term": "OP",
+    "meaning": "original poster; overpowered (context)",
+    "example": "Message me op when you arrive."
+  },
+  {
+    "term": "ETA",
+    "meaning": "estimated time of arrival",
+    "example": "Message me eta when you arrive."
+  },
+  {
+    "term": "WYA",
+    "meaning": "where you at",
+    "example": "Message me wya when you arrive."
+  },
+  {
+    "term": "WYD",
+    "meaning": "what you doing",
+    "example": "Message me wyd when you arrive."
+  },
+  {
+    "term": "LMK",
+    "meaning": "let me know",
+    "example": "Message me lmk when you arrive."
+  },
+  {
+    "term": "HMU",
+    "meaning": "hit me up",
+    "example": "Message me hmu when you arrive."
+  },
+  {
+    "term": "ILY",
+    "meaning": "I love you",
+    "example": "Message me ily when you arrive."
+  },
+  {
+    "term": "ILYSM",
+    "meaning": "I love you so much",
+    "example": "Message me ilysm when you arrive."
+  },
+  {
+    "term": "GN",
+    "meaning": "good night",
+    "example": "Message me gn when you arrive."
+  },
+  {
+    "term": "GM",
+    "meaning": "good morning",
+    "example": "Message me gm when you arrive."
+  },
+  {
+    "term": "HBU",
+    "meaning": "how about you",
+    "example": "Message me hbu when you arrive."
+  },
+  {
+    "term": "WTV",
+    "meaning": "whatever",
+    "example": "Message me wtv when you arrive."
+  },
+  {
+    "term": "NVM",
+    "meaning": "never mind",
+    "example": "Message me nvm when you arrive."
+  },
+  {
+    "term": "TBF",
+    "meaning": "to be fair",
+    "example": "Message me tbf when you arrive."
+  },
+  {
+    "term": "XOXO",
+    "meaning": "hugs and kisses",
+    "example": "Message me xoxo when you arrive."
+  },
+  {
+    "term": "ATM",
+    "meaning": "at the moment",
+    "example": "Message me atm when you arrive."
+  },
+  {
+    "term": "JK",
+    "meaning": "just kidding",
+    "example": "Message me jk when you arrive."
+  },
+  {
+    "term": "JKL",
+    "meaning": "just kidding lol",
+    "example": "Message me jkl when you arrive."
+  },
+  {
+    "term": "TBA",
+    "meaning": "to be announced",
+    "example": "Message me tba when you arrive."
+  },
+  {
+    "term": "TBD",
+    "meaning": "to be decided",
+    "example": "Message me tbd when you arrive."
+  },
+  {
+    "term": "GLHF",
+    "meaning": "good luck, have fun",
+    "example": "Message me glhf when you arrive."
+  },
+  {
+    "term": "GG",
+    "meaning": "good game",
+    "example": "Message me gg when you arrive."
+  },
+  {
+    "term": "EZ",
+    "meaning": "easy",
+    "example": "Message me ez when you arrive."
+  },
+  {
+    "term": "AFK",
+    "meaning": "away from keyboard",
+    "example": "Message me afk when you arrive."
+  },
+  {
+    "term": "sweaty",
+    "meaning": "try-hard; intensely competitive",
+    "example": "That lobby is sweaty."
+  },
+  {
+    "term": "cracked",
+    "meaning": "playing extremely well",
+    "example": "She’s cracked today."
+  },
+  {
+    "term": "nerf",
+    "meaning": "reduce power/strength in a patch",
+    "example": "They nerfed that hero."
+  },
+  {
+    "term": "buff",
+    "meaning": "increase power/strength",
+    "example": "That weapon got a buff."
+  },
+  {
+    "term": "meta",
+    "meaning": "most effective tactics available",
+    "example": "That deck is the meta."
+  },
+  {
+    "term": "noob",
+    "meaning": "inexperienced player (teasing)",
+    "example": "Don’t be a noob."
+  },
+  {
+    "term": "bot",
+    "meaning": "plays like a robot (bad)",
+    "example": "He moved like a bot."
+  },
+  {
+    "term": "camp",
+    "meaning": "wait in one spot to gain advantage",
+    "example": "They camp the spawn."
+  },
+  {
+    "term": "clutch",
+    "meaning": "succeed in a critical moment",
+    "example": "That was a clutch save."
+  },
+  {
+    "term": "tilted",
+    "meaning": "frustrated and playing worse",
+    "example": "I’m tilted after that loss."
+  },
+  {
+    "term": "rage quit",
+    "meaning": "quit abruptly out of anger",
+    "example": "He rage quit the match."
+  },
+  {
+    "term": "1v1 me",
+    "meaning": "challenge to a duel",
+    "example": "Let’s 1v1 after."
+  },
+  {
+    "term": "go next",
+    "meaning": "accept loss and move on",
+    "example": "We lost—go next."
+  },
+  {
+    "term": "GRWM",
+    "meaning": "get ready with me",
+    "example": "GRWM for the event."
+  },
+  {
+    "term": "day in the life",
+    "meaning": "vlog format of daily routine",
+    "example": "A day in the life at the startup."
+  },
+  {
+    "term": "photo dump",
+    "meaning": "casual set of photos in one post",
+    "example": "Weekend photo dump."
+  },
+  {
+    "term": "sounds",
+    "meaning": "audio clips used in short videos",
+    "example": "This sound is trending."
+  },
+  {
+    "term": "core",
+    "meaning": "aesthetic or vibe suffix",
+    "example": "Cottagecore decor everywhere."
+  },
+  {
+    "term": "vibe",
+    "meaning": "atmosphere or feeling",
+    "example": "The vibe was cozy."
+  },
+  {
+    "term": "aesthetic",
+    "meaning": "cohesive style/look",
+    "example": "The brand's aesthetic is clean."
+  },
+  {
+    "term": "understood the assignment",
+    "meaning": "performed as expected/excellently",
+    "example": "She understood the assignment."
+  },
+  {
+    "term": "periodt",
+    "meaning": "emphatic period; final word",
+    "example": "We’re done here, periodt."
+  },
+  {
+    "term": "ok boomer",
+    "meaning": "dismissive retort to out-of-touch takes",
+    "example": "Ok boomer."
+  },
+  {
+    "term": "Karen",
+    "meaning": "pejorative for entitled person (use carefully)",
+    "example": "The reviewer acted like a Karen."
+  },
+  {
+    "term": "receipts",
+    "meaning": "evidence/screenshots",
+    "example": "Post the receipts."
+  },
+  {
+    "term": "clap back",
+    "meaning": "sharp response to criticism",
+    "example": "He clapped back on Twitter."
+  },
+  {
+    "term": "drag",
+    "meaning": "criticize harshly",
+    "example": "The comments dragged the brand."
+  },
+  {
+    "term": "read",
+    "meaning": "call out with witty critique",
+    "example": "She read him to filth."
+  },
+  {
+    "term": "shade",
+    "meaning": "subtle insult",
+    "example": "Throwing shade at the competitor."
+  },
+  {
+    "term": "spill",
+    "meaning": "share info/gossip",
+    "example": "Spill already!"
+  },
+  {
+    "term": "tea",
+    "meaning": "gossip/info",
+    "example": "What’s the tea?"
+  },
+  {
+    "term": "extra",
+    "meaning": "over the top; dramatic",
+    "example": "That packaging is extra."
+  },
+  {
+    "term": "bougie",
+    "meaning": "luxury-leaning; fancy",
+    "example": "That brunch is bougie."
+  },
+  {
+    "term": "boujee",
+    "meaning": "alt spelling of bougie",
+    "example": "Boujee brunch spot."
+  },
+  {
+    "term": "glow",
+    "meaning": "radiant improvement",
+    "example": "Her skin has glow."
+  },
+  {
+    "term": "a whole meal",
+    "meaning": "very attractive",
+    "example": "He’s a whole meal."
+  },
+  {
+    "term": "ate up",
+    "meaning": "to devour/defeat thoroughly (metaphor)",
+    "example": "The rookie ate up the defense."
+  },
+  {
+    "term": "brick",
+    "meaning": "a long time",
+    "example": "It’s been a brick since we talked."
+  },
+  {
+    "term": "cook",
+    "meaning": "perform well; operate skillfully",
+    "example": "Let him cook this feature."
+  },
+  {
+    "term": "valid AF",
+    "meaning": "very legitimate/true",
+    "example": "That point is valid AF."
+  },
+  {
+    "term": "AF",
+    "meaning": "intensifier (very); 'as heck'",
+    "example": ""
+  },
+  {
+    "term": "sus af",
+    "meaning": "very suspicious",
+    "example": "People keep saying “sus af” lately."
+  },
+  {
+    "term": "hard-stuck",
+    "meaning": "",
+    "example": "People keep saying “hard-stuck” lately."
+  },
+  {
+    "term": "copium",
+    "meaning": "",
+    "example": "People keep saying “copium” lately."
+  },
+  {
+    "term": "hopium",
+    "meaning": "",
+    "example": "People keep saying “hopium” lately."
+  },
+  {
+    "term": "low effort",
+    "meaning": "",
+    "example": "People keep saying “low effort” lately."
+  },
+  {
+    "term": "high effort",
+    "meaning": "",
+    "example": "People keep saying “high effort” lately."
+  },
+  {
+    "term": "main quest",
+    "meaning": "",
+    "example": "People keep saying “main quest” lately."
+  },
+  {
+    "term": "side quest",
+    "meaning": "",
+    "example": "People keep saying “side quest” lately."
+  },
+  {
+    "term": "core memory",
+    "meaning": "",
+    "example": "People keep saying “core memory” lately."
+  },
+  {
+    "term": "living rent-free",
+    "meaning": "",
+    "example": "People keep saying “living rent-free” lately."
+  },
+  {
+    "term": "vibe shift",
+    "meaning": "",
+    "example": "People keep saying “vibe shift” lately."
+  },
+  {
+    "term": "a serve",
+    "meaning": "",
+    "example": "People keep saying “a serve” lately."
+  },
+  {
+    "term": "she ate",
+    "meaning": "",
+    "example": "People keep saying “she ate” lately."
+  },
+  {
+    "term": "ate fr",
+    "meaning": "",
+    "example": "People keep saying “ate fr” lately."
+  },
+  {
+    "term": "no crumbs",
+    "meaning": "",
+    "example": "People keep saying “no crumbs” lately."
+  },
+  {
+    "term": "caught in 4k",
+    "meaning": "",
+    "example": "People keep saying “caught in 4k” lately."
+  },
+  {
+    "term": "soft life",
+    "meaning": "",
+    "example": "People keep saying “soft life” lately."
+  },
+  {
+    "term": "clean girl",
+    "meaning": "",
+    "example": "People keep saying “clean girl” lately."
+  },
+  {
+    "term": "girl math",
+    "meaning": "",
+    "example": "People keep saying “girl math” lately."
+  },
+  {
+    "term": "girl boss",
+    "meaning": "",
+    "example": "People keep saying “girl boss” lately."
+  },
+  {
+    "term": "boss babe",
+    "meaning": "",
+    "example": "People keep saying “boss babe” lately."
+  },
+  {
+    "term": "delulu arc",
+    "meaning": "",
+    "example": "People keep saying “delulu arc” lately."
+  },
+  {
+    "term": "canon event",
+    "meaning": "",
+    "example": "People keep saying “canon event” lately."
+  },
+  {
+    "term": "multiverse of madness",
+    "meaning": "",
+    "example": "People keep saying “multiverse of madness” lately."
+  },
+  {
+    "term": "plot armor",
+    "meaning": "",
+    "example": "People keep saying “plot armor” lately."
+  },
+  {
+    "term": "NPC energy",
+    "meaning": "",
+    "example": "People keep saying “NPC energy” lately."
+  },
+  {
+    "term": "ok slay",
+    "meaning": "",
+    "example": "People keep saying “ok slay” lately."
+  },
+  {
+    "term": "king",
+    "meaning": "",
+    "example": "People keep saying “king” lately."
+  },
+  {
+    "term": "queen",
+    "meaning": "",
+    "example": "People keep saying “queen” lately."
+  },
+  {
+    "term": "slaps hard",
+    "meaning": "",
+    "example": "People keep saying “slaps hard” lately."
+  },
+  {
+    "term": "heat check",
+    "meaning": "",
+    "example": "People keep saying “heat check” lately."
+  },
+  {
+    "term": "ratio bait",
+    "meaning": "",
+    "example": "People keep saying “ratio bait” lately."
+  },
+  {
+    "term": "PACKWATCH",
+    "meaning": "",
+    "example": ""
+  },
+  {
+    "term": "PACKWATCH RIP BOZO",
+    "meaning": "",
+    "example": ""
+  },
+  {
+    "term": "out of pocket",
+    "meaning": "",
+    "example": "People keep saying “out of pocket” lately."
+  },
+  {
+    "term": "spin back",
+    "meaning": "",
+    "example": "People keep saying “spin back” lately."
+  },
+  {
+    "term": "built different",
+    "meaning": "",
+    "example": "People keep saying “built different” lately."
+  },
+  {
+    "term": "let them cook fr",
+    "meaning": "",
+    "example": "People keep saying “let them cook fr” lately."
+  },
+  {
+    "term": "nah he tweaking",
+    "meaning": "",
+    "example": "People keep saying “nah he tweaking” lately."
+  },
+  {
+    "term": "this ain’t it chief",
+    "meaning": "",
+    "example": "People keep saying “this ain’t it chief” lately."
+  },
+  {
+    "term": "go outside",
+    "meaning": "",
+    "example": "People keep saying “go outside” lately."
+  },
+  {
+    "term": "big W",
+    "meaning": "",
+    "example": "People keep saying “big W” lately."
+  },
+  {
+    "term": "massive L",
+    "meaning": "",
+    "example": "People keep saying “massive L” lately."
+  },
+  {
+    "term": "L take",
+    "meaning": "",
+    "example": "People keep saying “L take” lately."
+  },
+  {
+    "term": "W take",
+    "meaning": "",
+    "example": "People keep saying “W take” lately."
+  },
+  {
+    "term": "hard launch soft launch",
+    "meaning": "",
+    "example": "People keep saying “hard launch soft launch” lately."
+  },
+  {
+    "term": "situationship era",
+    "meaning": "",
+    "example": "People keep saying “situationship era” lately."
+  },
+  {
+    "term": "low vibrational",
+    "meaning": "",
+    "example": "People keep saying “low vibrational” lately."
+  },
+  {
+    "term": "high vibrational",
+    "meaning": "",
+    "example": "People keep saying “high vibrational” lately."
+  },
+  {
+    "term": "optics",
+    "meaning": "",
+    "example": "People keep saying “optics” lately."
+  },
+  {
+    "term": "make it make sense",
+    "meaning": "",
+    "example": "People keep saying “make it make sense” lately."
+  },
+  {
+    "term": "say less",
+    "meaning": "",
+    "example": "People keep saying “say less” lately."
+  },
+  {
+    "term": "say less fam",
+    "meaning": "",
+    "example": "People keep saying “say less fam” lately."
+  },
+  {
+    "term": "we move",
+    "meaning": "",
+    "example": "People keep saying “we move” lately."
+  },
+  {
+    "term": "we ball",
+    "meaning": "",
+    "example": "People keep saying “we ball” lately."
+  },
+  {
+    "term": "risk it all",
+    "meaning": "",
+    "example": "People keep saying “risk it all” lately."
+  },
+  {
+    "term": "break the internet",
+    "meaning": "",
+    "example": "People keep saying “break the internet” lately."
+  },
+  {
+    "term": "going feral",
+    "meaning": "",
+    "example": "People keep saying “going feral” lately."
+  },
+  {
+    "term": "feral for it",
+    "meaning": "",
+    "example": "People keep saying “feral for it” lately."
+  },
+  {
+    "term": "girl mathing",
+    "meaning": "",
+    "example": "People keep saying “girl mathing” lately."
+  },
+  {
+    "term": "serve looks",
+    "meaning": "",
+    "example": "People keep saying “serve looks” lately."
+  },
+  {
+    "term": "serve face",
+    "meaning": "",
+    "example": "People keep saying “serve face” lately."
+  },
+  {
+    "term": "serve work",
+    "meaning": "",
+    "example": "People keep saying “serve work” lately."
+  },
+  {
+    "term": "mother",
+    "meaning": "",
+    "example": "People keep saying “mother” lately."
+  },
+  {
+    "term": "mothering",
+    "meaning": "",
+    "example": "People keep saying “mothering” lately."
+  },
+  {
+    "term": "father",
+    "meaning": "",
+    "example": "People keep saying “father” lately."
+  },
+  {
+    "term": "uncle energy",
+    "meaning": "",
+    "example": "People keep saying “uncle energy” lately."
+  },
+  {
+    "term": "nepo baby",
+    "meaning": "",
+    "example": "People keep saying “nepo baby” lately."
+  },
+  {
+    "term": "beef",
+    "meaning": "",
+    "example": "People keep saying “beef” lately."
+  },
+  {
+    "term": "receipts were receipting",
+    "meaning": "",
+    "example": "People keep saying “receipts were receipting” lately."
+  },
+  {
+    "term": "I’m him",
+    "meaning": "",
+    "example": "People keep saying “I’m him” lately."
+  },
+  {
+    "term": "she’s her",
+    "meaning": "",
+    "example": "People keep saying “she’s her” lately."
+  },
+  {
+    "term": "he’s himothy",
+    "meaning": "",
+    "example": "People keep saying “he’s himothy” lately."
+  },
+  {
+    "term": "ate that up",
+    "meaning": "",
+    "example": "People keep saying “ate that up” lately."
+  },
+  {
+    "term": "chefs kiss",
+    "meaning": "",
+    "example": "People keep saying “chefs kiss” lately."
+  },
+  {
+    "term": "chef’s kiss",
+    "meaning": "",
+    "example": "People keep saying “chef’s kiss” lately."
+  },
+  {
+    "term": "gatekeep gaslight girlboss",
+    "meaning": "",
+    "example": "People keep saying “gatekeep gaslight girlboss” lately."
+  },
+  {
+    "term": "rizzless",
+    "meaning": "",
+    "example": "People keep saying “rizzless” lately."
+  },
+  {
+    "term": "in my flop era",
+    "meaning": "",
+    "example": "People keep saying “in my flop era” lately."
+  },
+  {
+    "term": "in my slay era",
+    "meaning": "",
+    "example": "People keep saying “in my slay era” lately."
+  },
+  {
+    "term": "it’s camp",
+    "meaning": "",
+    "example": "People keep saying “it’s camp” lately."
+  },
+  {
+    "term": "campy",
+    "meaning": "",
+    "example": "People keep saying “campy” lately."
+  },
+  {
+    "term": "ate? ate!",
+    "meaning": "",
+    "example": "People keep saying “ate? ate!” lately."
+  },
+  {
+    "term": "goblin mode",
+    "meaning": "",
+    "example": "People keep saying “goblin mode” lately."
+  },
+  {
+    "term": "sigma",
+    "meaning": "",
+    "example": "People keep saying “sigma” lately."
+  },
+  {
+    "term": "alpha move",
+    "meaning": "",
+    "example": "People keep saying “alpha move” lately."
+  },
+  {
+    "term": "beta move",
+    "meaning": "",
+    "example": "People keep saying “beta move” lately."
+  },
+  {
+    "term": "ick list",
+    "meaning": "",
+    "example": "People keep saying “ick list” lately."
+  },
+  {
+    "term": "icked out",
+    "meaning": "",
+    "example": "People keep saying “icked out” lately."
+  },
+  {
+    "term": "ick energy",
+    "meaning": "",
+    "example": "People keep saying “ick energy” lately."
+  },
+  {
+    "term": "ick vibes",
+    "meaning": "",
+    "example": "People keep saying “ick vibes” lately."
+  },
+  {
+    "term": "caught lacking",
+    "meaning": "",
+    "example": "People keep saying “caught lacking” lately."
+  },
+  {
+    "term": "bestie",
+    "meaning": "",
+    "example": "People keep saying “bestie” lately."
+  },
+  {
+    "term": "bestie vibes",
+    "meaning": "",
+    "example": "People keep saying “bestie vibes” lately."
+  },
+  {
+    "term": "bestie pls",
+    "meaning": "",
+    "example": "People keep saying “bestie pls” lately."
+  },
+  {
+    "term": "bestie do better",
+    "meaning": "",
+    "example": "People keep saying “bestie do better” lately."
+  },
+  {
+    "term": "main char",
+    "meaning": "",
+    "example": "People keep saying “main char” lately."
+  },
+  {
+    "term": "villain arc",
+    "meaning": "",
+    "example": "People keep saying “villain arc” lately."
+  },
+  {
+    "term": "anti-hero era",
+    "meaning": "",
+    "example": "People keep saying “anti-hero era” lately."
+  },
+  {
+    "term": "blorbo",
+    "meaning": "",
+    "example": "People keep saying “blorbo” lately."
+  },
+  {
+    "term": "kin",
+    "meaning": "",
+    "example": "People keep saying “kin” lately."
+  },
+  {
+    "term": "blud",
+    "meaning": "",
+    "example": "People keep saying “blud” lately."
+  },
+  {
+    "term": "gyat",
+    "meaning": "",
+    "example": "People keep saying “gyat” lately."
+  },
+  {
+    "term": "skibidi dob dob",
+    "meaning": "",
+    "example": "People keep saying “skibidi dob dob” lately."
+  },
+  {
+    "term": "fan behavior",
+    "meaning": "",
+    "example": "People keep saying “fan behavior” lately."
+  },
+  {
+    "term": "chronically online",
+    "meaning": "",
+    "example": "People keep saying “chronically online” lately."
+  },
+  {
+    "term": "terminally online",
+    "meaning": "",
+    "example": "People keep saying “terminally online” lately."
+  },
+  {
+    "term": "doomscroll",
+    "meaning": "",
+    "example": "People keep saying “doomscroll” lately."
+  },
+  {
+    "term": "doomscrolling",
+    "meaning": "",
+    "example": "People keep saying “doomscrolling” lately."
+  },
+  {
+    "term": "rage bait",
+    "meaning": "",
+    "example": "People keep saying “rage bait” lately."
+  },
+  {
+    "term": "polite catcaller meme",
+    "meaning": "",
+    "example": "People keep saying “polite catcaller meme” lately."
+  },
+  {
+    "term": "low effort meme",
+    "meaning": "",
+    "example": "People keep saying “low effort meme” lately."
+  },
+  {
+    "term": "corecore",
+    "meaning": "",
+    "example": "People keep saying “corecore” lately."
+  },
+  {
+    "term": "beige flag parade",
+    "meaning": "",
+    "example": "People keep saying “beige flag parade” lately."
+  },
+  {
+    "term": "ick parade",
+    "meaning": "",
+    "example": "People keep saying “ick parade” lately."
+  },
+  {
+    "term": "brainworms",
+    "meaning": "",
+    "example": "People keep saying “brainworms” lately."
+  },
+  {
+    "term": "brain rot content",
+    "meaning": "",
+    "example": "People keep saying “brain rot content” lately."
+  },
+  {
+    "term": "NPC stream",
+    "meaning": "",
+    "example": "People keep saying “NPC stream” lately."
+  },
+  {
+    "term": "slime tutorial",
+    "meaning": "",
+    "example": "People keep saying “slime tutorial” lately."
+  },
+  {
+    "term": "satisfying content",
+    "meaning": "",
+    "example": "People keep saying “satisfying content” lately."
+  },
+  {
+    "term": "unsatisfying",
+    "meaning": "",
+    "example": "People keep saying “unsatisfying” lately."
+  },
+  {
+    "term": "mic drop",
+    "meaning": "",
+    "example": "People keep saying “mic drop” lately."
+  },
+  {
+    "term": "drop the mic",
+    "meaning": "",
+    "example": "People keep saying “drop the mic” lately."
+  },
+  {
+    "term": "touch grass challenge",
+    "meaning": "",
+    "example": "People keep saying “touch grass challenge” lately."
+  },
+  {
+    "term": "girl dinner challenge",
+    "meaning": "",
+    "example": "People keep saying “girl dinner challenge” lately."
+  },
+  {
+    "term": "quiet quitting",
+    "meaning": "",
+    "example": "People keep saying “quiet quitting” lately."
+  },
+  {
+    "term": "loud quitting",
+    "meaning": "",
+    "example": "People keep saying “loud quitting” lately."
+  },
+  {
+    "term": "bare minimum monday",
+    "meaning": "",
+    "example": "People keep saying “bare minimum monday” lately."
+  },
+  {
+    "term": "quiet luxury",
+    "meaning": "",
+    "example": "People keep saying “quiet luxury” lately."
+  },
+  {
+    "term": "old money aesthetic",
+    "meaning": "",
+    "example": "People keep saying “old money aesthetic” lately."
+  },
+  {
+    "term": "clean aesthetic",
+    "meaning": "",
+    "example": "People keep saying “clean aesthetic” lately."
+  },
+  {
+    "term": "vanilla",
+    "meaning": "",
+    "example": "People keep saying “vanilla” lately."
+  },
+  {
+    "term": "spicy",
+    "meaning": "",
+    "example": "People keep saying “spicy” lately."
+  },
+  {
+    "term": "spicy take",
+    "meaning": "",
+    "example": "People keep saying “spicy take” lately."
+  },
+  {
+    "term": "hot take",
+    "meaning": "",
+    "example": "People keep saying “hot take” lately."
+  },
+  {
+    "term": "cold take",
+    "meaning": "",
+    "example": "People keep saying “cold take” lately."
+  },
+  {
+    "term": "lukewarm take",
+    "meaning": "",
+    "example": "People keep saying “lukewarm take” lately."
+  },
+  {
+    "term": "glaze era",
+    "meaning": "",
+    "example": "People keep saying “glaze era” lately."
+  },
+  {
+    "term": "glazing hard",
+    "meaning": "",
+    "example": "People keep saying “glazing hard” lately."
+  },
+  {
+    "term": "thirst comment",
+    "meaning": "",
+    "example": "People keep saying “thirst comment” lately."
+  },
+  {
+    "term": "thirsting",
+    "meaning": "",
+    "example": "People keep saying “thirsting” lately."
+  },
+  {
+    "term": " thirst follows",
+    "meaning": "",
+    "example": "People keep saying “ thirst follows” lately."
+  },
+  {
+    "term": " thirst liking",
+    "meaning": "",
+    "example": "People keep saying “ thirst liking” lately."
+  },
+  {
+    "term": " thirst tweets",
+    "meaning": "",
+    "example": "People keep saying “ thirst tweets” lately."
+  },
+  {
+    "term": " thirst traps",
+    "meaning": "",
+    "example": "People keep saying “ thirst traps” lately."
+  },
+  {
+    "term": " thirst accounts",
+    "meaning": "",
+    "example": "People keep saying “ thirst accounts” lately."
+  },
+  {
+    "term": " thirst behavior",
+    "meaning": "",
+    "example": "People keep saying “ thirst behavior” lately."
+  }
 ]
