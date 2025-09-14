@@ -1,10 +1,334 @@
 {
-"en_to_gz": {
-"phrases": [["that was very impressive", "you ate"], ["let him do his thing", "let him cook"]],
-"words": [["impressive", "fire"], ["charisma", "rizz"]]
-},
-"gz_to_en": {
-"phrases": [["you ate", "you did a great job"]],
-"words": [["rizz", "charisma"], ["delulu", "playfully delusional"]]
-}
+  "en_to_gz": {
+    "phrases": [
+      [
+        "you did a great job",
+        "you ate"
+      ],
+      [
+        "performed flawlessly",
+        "ate and left no crumbs"
+      ],
+      [
+        "stop exaggerating",
+        "no cap"
+      ],
+      [
+        "tell me the gossip",
+        "spill the tea"
+      ],
+      [
+        "that looks really good",
+        "it's giving"
+      ],
+      [
+        "let him do his thing",
+        "let him cook"
+      ],
+      [
+        "let them do their thing",
+        "let them cook"
+      ],
+      [
+        "go outside and take a break",
+        "touch grass"
+      ],
+      [
+        "feels very stylish",
+        "serves"
+      ],
+      [
+        "looks stylish",
+        "serves"
+      ],
+      [
+        "that is extremely impressive",
+        "fire"
+      ],
+      [
+        "that is excellent",
+        "fire"
+      ],
+      [
+        "i completely agree",
+        "based"
+      ],
+      [
+        "that was very impressive",
+        "you ate"
+      ]
+    ],
+    "words": [
+      [
+        "impressive",
+        "fire"
+      ],
+      [
+        "excellent",
+        "fire"
+      ],
+      [
+        "amazing",
+        "fire"
+      ],
+      [
+        "charisma",
+        "rizz"
+      ],
+      [
+        "average",
+        "mid"
+      ],
+      [
+        "suspicious",
+        "sus"
+      ],
+      [
+        "fan",
+        "stan"
+      ],
+      [
+        "angry",
+        "salty"
+      ],
+      [
+        "gossip",
+        "tea"
+      ],
+      [
+        "outfit",
+        "fit"
+      ],
+      [
+        "clothes",
+        "drip"
+      ],
+      [
+        "underrated",
+        "slept on"
+      ],
+      [
+        "attractive",
+        "a whole meal"
+      ],
+      [
+        "gutsy",
+        "savage"
+      ],
+      [
+        "authentic",
+        "OG"
+      ],
+      [
+        "evidence",
+        "receipts"
+      ],
+      [
+        "criticize",
+        "drag"
+      ],
+      [
+        "insult",
+        "shade"
+      ],
+      [
+        "respond sharply",
+        "clap back"
+      ],
+      [
+        "awkward",
+        "cringe"
+      ],
+      [
+        "confident",
+        "based"
+      ],
+      [
+        "very good",
+        "bussin'"
+      ],
+      [
+        "joke",
+        "meme"
+      ],
+      [
+        "victory",
+        "W"
+      ],
+      [
+        "defeat",
+        "L"
+      ]
+    ]
+  },
+  "gz_to_en": {
+    "phrases": [
+      [
+        "you ate",
+        "you did a great job"
+      ],
+      [
+        "ate and left no crumbs",
+        "performed flawlessly"
+      ],
+      [
+        "it's giving",
+        "it gives off the vibe of"
+      ],
+      [
+        "spill the tea",
+        "share the gossip"
+      ],
+      [
+        "no cap",
+        "for real; no exaggeration"
+      ],
+      [
+        "main character energy",
+        "owning the moment"
+      ],
+      [
+        "touch grass",
+        "go outside and take a break"
+      ],
+      [
+        "let him cook",
+        "let him do his thing"
+      ],
+      [
+        "let them cook",
+        "let them do their thing"
+      ],
+      [
+        "girl dinner",
+        "snack plate dinner"
+      ],
+      [
+        "brain rot",
+        "mind-numbing content overload"
+      ],
+      [
+        "understood the assignment",
+        "performed exactly as expected"
+      ],
+      [
+        "quiet quitting",
+        "doing only what's required at work"
+      ],
+      [
+        "goblin mode",
+        "embracing messy comfort without caring"
+      ]
+    ],
+    "words": [
+      [
+        "rizz",
+        "charisma"
+      ],
+      [
+        "sus",
+        "suspicious"
+      ],
+      [
+        "mid",
+        "average"
+      ],
+      [
+        "based",
+        "confidently true"
+      ],
+      [
+        "cringe",
+        "embarrassing"
+      ],
+      [
+        "salty",
+        "bitter or annoyed"
+      ],
+      [
+        "stan",
+        "hardcore fan"
+      ],
+      [
+        "yeet",
+        "throw"
+      ],
+      [
+        "slaps",
+        "is excellent"
+      ],
+      [
+        "delulu",
+        "playfully delusional"
+      ],
+      [
+        "goated",
+        "the greatest"
+      ],
+      [
+        "drip",
+        "stylish clothing"
+      ],
+      [
+        "fit",
+        "outfit"
+      ],
+      [
+        "bop",
+        "good song"
+      ],
+      [
+        "simp",
+        "overly attentive admirer"
+      ],
+      [
+        "shade",
+        "subtle insult"
+      ],
+      [
+        "drag",
+        "harshly criticize"
+      ],
+      [
+        "receipts",
+        "evidence"
+      ],
+      [
+        "clap back",
+        "sharp retort"
+      ],
+      [
+        "ship",
+        "support a relationship"
+      ],
+      [
+        "mog",
+        "outclass; dominate"
+      ],
+      [
+        "glazing",
+        "overpraising"
+      ],
+      [
+        "NPC",
+        "unoriginal person/behavior"
+      ],
+      [
+        "pog",
+        "impressive moment"
+      ],
+      [
+        "thirsty",
+        "desperate for attention"
+      ],
+      [
+        "down bad",
+        "crushing hard; struggling"
+      ],
+      [
+        "valid",
+        "legitimate"
+      ]
+    ]
+  }
 }
