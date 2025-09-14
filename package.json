@@ -1,0 +1,8 @@
+{
+  "name": "genz-dictionary-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:dict": "node scripts/validate-dictionary.mjs genz-dictionary.json"
+  }
+}
