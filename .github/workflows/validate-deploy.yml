@@ -22,25 +22,18 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '20' }
 
-      # 1) Clean + de-dupe → dist/genz-dictionary.json
+      # 1) Clean + de-dupe raw JSON → dist/genz-dictionary.json
       - name: Fix dictionary
-        run: npm run fix:dict
+        run: node scripts/fix-dictionary.mjs
 
-      # 2) Show a quick preview in logs
-      - name: Preview head
-        run: |
-          head -n 40 dist/genz-dictionary.json || true
-          echo "Files in dist:" && ls -la dist
-
-      # 3) Validate the cleaned file
+      # 2) Validate the cleaned file
       - name: Validate dictionary
-        run: npm run validate:dict
+        run: node scripts/validate-dictionary.mjs dist/genz-dictionary.json
 
-      # 4) Prepare & upload Pages artifact (serve dist/ as site root)
+      # 3) Prepare GitHub Pages artifact from dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
+        with: { path: dist }
 
   deploy:
     needs: build
